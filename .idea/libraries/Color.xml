@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Color">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/WorkingWithAbstractionExercise/trafficLights/Color.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

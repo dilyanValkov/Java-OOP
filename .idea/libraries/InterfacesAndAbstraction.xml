@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="InterfacesAndAbstraction">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/InterfacesAndAbstraction/CarShopExtended.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/InterfacesAndAbstraction/carshop.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/InterfacesAndAbstraction/sayhello.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

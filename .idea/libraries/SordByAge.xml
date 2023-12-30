@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SordByAge">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/Encapsulation/SordByAge.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

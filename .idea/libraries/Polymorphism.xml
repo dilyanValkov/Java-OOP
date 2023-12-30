@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Polymorphism">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/Polymorphism/mathOperations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/Polymorphism/vehicles.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/Polymorphism/animals.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/Polymorphism/vehicles2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/Polymorphism/wildFarm.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

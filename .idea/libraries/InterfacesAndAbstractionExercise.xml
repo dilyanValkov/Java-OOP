@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="InterfacesAndAbstractionExercise">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/InterfacesAndAbstractionExercise/Food.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/InterfacesAndAbstractionExercise/MultipleImpl.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/InterfacesAndAbstractionExercise/BirthdayCelebrations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/InterfacesAndAbstractionExercise/Telephony.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/InterfacesAndAbstractionExercise/InterfacePerson.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
