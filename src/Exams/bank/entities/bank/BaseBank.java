@@ -1,7 +1,9 @@
 package bank.entities.bank;
+
 import bank.common.ExceptionMessages;
 import bank.entities.client.Client;
 import bank.entities.loan.Loan;
+
 import java.util.ArrayList;
 import java.util.Collection;
 
@@ -12,9 +14,9 @@ public abstract class BaseBank implements Bank {
 
     private int capacity;
 
-    private Collection <Loan> loans;
+    private Collection<Loan> loans;
 
-    private Collection <Client> clients;
+    private Collection<Client> clients;
 
     public BaseBank(String name, int capacity) {
         setName(name);
@@ -30,7 +32,7 @@ public abstract class BaseBank implements Bank {
 
     @Override
     public void setName(String name) {
-        if(name == null || name.isBlank()){
+        if (name == null || name.isBlank()) {
             throw new IllegalArgumentException(ExceptionMessages.BANK_NAME_CANNOT_BE_NULL_OR_EMPTY);
         }
         this.name = name;
@@ -48,7 +50,7 @@ public abstract class BaseBank implements Bank {
 
     @Override
     public void addClient(Client client) {
-        if(clients.size() >= capacity){
+        if (clients.size() >= capacity) {
             throw new IllegalStateException(ExceptionMessages.NOT_ENOUGH_CAPACITY_FOR_CLIENT);
         }
         clients.add(client);
@@ -70,36 +72,28 @@ public abstract class BaseBank implements Bank {
     }
 
     @Override
-    public  String getStatistics(){
-
+    public String getStatistics() {
 
         StringBuilder sb = new StringBuilder();
-
         sb.append(String.format("Name: %s, Type: %s\n", name, getClass().getSimpleName()));
         sb.append("Clients: ");
-
-
         int index = 0;
 
-        if(clients.isEmpty()){
+        if (clients.isEmpty()) {
             sb.append("none");
-        }else{
+        } else {
             for (Client client : clients) {
                 String clientName = client.getName();
                 sb.append(clientName);
-                if(index < clients.size() - 1){
+                if (index < clients.size() - 1) {
                     sb.append(", ");
                     index++;
                 }
             }
         }
-
-
         sb.append(System.lineSeparator());
         sb.append(String.format("Loans: %d, Sum of interest rates: %d", loans.size(), sumOfInterestRates()));
         sb.append(System.lineSeparator());
-
         return sb.toString();
-
     }
 }
